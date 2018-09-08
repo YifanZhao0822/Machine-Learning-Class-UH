@@ -1,0 +1,143 @@
+\documentclass{article}
+\usepackage{graphicx,float}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{amsmath}
+
+\lstset{numbers=left,
+numberstyle=\tiny,
+keywordstyle=\color{blue}, commentstyle=\color[cmyk]{1,0,1,0},
+frame=null,
+%rulesepcolor=\color{red!20!green!20!blue!20},
+basicstyle=\ttfamily\small,
+xleftmargin=2em,
+xrightmargin=2em,
+aboveskip=1em,
+showspaces=false
+}
+
+\author{Yifan Zhao}
+\title{Automatical Learning and Data Mining\\HW4 Report}
+\begin{document}
+ \maketitle
+ \section{Description}
+ The data set is the same as the second task described in the homework text. We downloaded about 1300 stocks' per minute price sequences during a 20-day period from google finance websites. Then select those who have more than 5000 cases(Some stocks may miss some cases for delisted). Then we have 757 stocks left. We chose two of them as the target stocks. And decide the different classes according to the up and down of these two stocks:\\1: up up;\\2: up down;\\3: down up;\\3: down down.\\Then the number of descriptors is 755. The number of cases is 5000. The number of classes is 4. All descriptors are real and continuous. Expected outputs are 4-dimension 0-1 vectors valued 1 if and only if the index is equal to the correct class index, otherwise, equal to 0. The training set has 4000 cases, the test set has 1000 cases. Before separate the training set and the test set, we shuffle the whole data set in order to remove the influence of chronical trend.
+ \section{Architecture of Auto-encoder}
+ \subsection{}We construct the auto-encoder based on the MLP paradigm. The auto-encoder has three layers: \[INPUT\rightarrow HIDDEN\rightarrow OUTPUT\]
+ where INPUT has the same size as OUTPUT, i.e., the number of descriptors.
+ \subsection{PCA of Original Data}Before computing the correlation matrix of the data, we do following manipulations for each descriptor: Subtract its median(or mean) and divide it with its standard deviation. Subtracting median instead of mean could make the data unbiased because of the definition of median, so we choose median here. After performing the PCA, the 3 cut-off numbers of eigenvalues are as follows :\\R1=50\%: 5\\R2=75\%: 30\\R3=90\%: 91. \\So the sizes of auto-encoder's hidden layer are h1=5, h2=30, h3=91.
+ \subsection{Pretreatment of Original Data}We use the sigmoid response function. Since we have already subtracted the median and divided with standard deviation of the data. And the main non-linear part of sigmoid function is in (-6,6), we do not subtract the minimum of the data, nor divide with the range(maximum minus minimum). The nonlinearity of sigmoid function could be better developed.
+ \section{Automatic Learning for 3 AEs}
+ \subsection{Software Options}
+ We use tensorflow as the software for automatic learning. There are two usual tools for minimizing the MSE on the training set with validation on the test set, ADAM optimizer(function in tensorflow: tf.train.AdamOptimizer) and Gradient Descent optimizer(function in tensorflow: tf.train.GradientDescentOptimizer). The former is a specialized gradient descent optimizer for classification tasks, and the latter is the generic gradient descent optimizer. So we use Graient Descent optimizer in the auto-encoders.\\
+ With tensorflow, we could generate various distributed including but not limited to normal distributed tensors for initialization of the wights and assign parameters like means and standard deviations to specify the initialization. One of the appropriate specifications we found is that mean equals to 0.1 and standard deviation equals to 0.01. \\
+For batch learning, we use the function np.random.choice in Python package numpy to obtain a batch. This function returns a random sample from the population with a given size. The current tested appropriate batch size is around 100.\\
+For the learning rate, we assign a learning rate variable valued $\frac{\epsilon}{n}$to control the step size of gradient, where n the current number of global learning steps or epochs(the latter is better according to several tests).\\
+The stopping criterion of learning is when the norm of gradient is smaller than a given level: e.g., 0.03.
+For intermediary outputs to monitor learning quality, we compute and print the learning loss per 10 batches. The loss is defined by the mean squared error between reconstructed data and the original input data out of the whole batch.\\
+\subsection{RMSE, $\Delta W$, Gradient}
+The computation of RMSE, $\Delta W$ and gradient is similar to ordinary MLPs. RMSE is just the square root of MSE, it can be computed by the function tf.sqrt, then normalize it with its dimension. For the $||\Delta W||$, we first compute the norm of the difference of weights and biases of each layer separately. Then we add the squared norms together and normalize it with its dimension. In this way we could avoid to manipulate the matrices of weights and biases, which are pretty complicated. The computation of gradient could be easier after we have the weights' difference, just divide it with the learning rate and normalize it with its dimension.\\
+Then we could plot the three curves:
+  \begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.75\textwidth]{RMSE.jpg}
+  \caption{RMSE}\label{}
+  \end{figure}
+  \begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.75\textwidth]{DeltaWb.jpg}
+  \caption{$||\Delta W||$}\label{}
+  \end{figure}
+  \begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.75\textwidth]{Gradient.jpg}
+  \caption{G}\label{}
+  \end{figure}
+  As we could see,all three curves decline in an exponential shape as the global steps grow. The fluctuation of RMSE is the greatest among these three curves. The declination of gradient is relatively insignificant comparing with the other two. The learning rate influences the gradient a lot. Therefore, we increased the number of epochs in order to guarantee the auto-encoder converge sufficiently.
+  \subsection{Global Performance}
+  Here is the graph of two GRMSEs on the same plot.
+  \begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.75\textwidth]{GRMSE.jpg}
+  \caption{G}\label{}
+  \end{figure}
+  The blue one represents the training set, the red one represents the test set. As we could see from the graph, the performances on both set are improving as the number of epochs grows. The GRMSE on the test set is slightly greater than that on the training set, yet still comparable.
+  \subsection{Performances of Three AEs}
+  Since we have 3 different auto-encoders with hidden layer dimensions 5, 30 and 91, we perform several runs of each auto-encoder. The best result is from the 91-dimensional one with batch loss(MSE) converges to 0.06. Obviously, the first two dimensions are too small for reconstructing data with 755 dimensions. Additionally, 91 is a relatively successful compression of data compared with 755. So we select the third auto-encoder as the best.
+  \section{Activity Analysis of Hidden Layer}
+  \subsection{PCA of Hidden Layer}
+  After the training, we save the terminal values of weights and biases. Then we compute the terminal values of hidden layer on the training set. Then implement PCA for these hidden layer vectors. The number of eigenvalues of 90\% energy for the first auto-encoder is 3, the second is 11 and the third is 26. Here is the scatter graph of the cloud of the third auto-encoder. Since graphs for different auto-encoders are not significantly distinct, so we only display the one of 91 dimensions. Points in different classes have different colors.
+  \begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.75\textwidth]{scatter.jpg}
+  \caption{G}\label{}
+  \end{figure}
+  As we could see from the scatter, points of different classes have not been separated enough, for auto-encoder is only a pretreatment and simplification of the data. So the implementation of MLP is still necessary.
+  \subsection{The Maximum and Activity of Each Node}
+  We compute the maximum of each node with following codes. First, we initialize the list variable to store the indices of maximums of each node. Then we find the input such that one specific node attains its maximum by the function np.argmax, it returns the argument(index) such that the input attains its maximum. Then we find the class it belongs to with return value of np.argmax and the array of each input's class index. At last, we count the number of these inputs belonging to each class and return with the list hid_max_sum. Here is the list of the number of nodes attributed to each class:\\ \[[14,\ 4,\ 0,\ 73]\]. As we could see, the fourth class is the most active.\\
+  The activity of each node is also computed by the following codes. First, we initialize an activity list variable to store the activities. Then for each node, we compute the mean of the node based on the whole set with the function np.mean.
+  \begin{lstlisting}[language=Python]
+    hid_max=[]
+    activity=[]
+    class_act=[[],[],[],[]]
+    for i in range(h):
+        hid_max_index=np.argmax(hidden[:,i])
+        hid_max.append(np.argwhere(label[hid_max_index,:]))
+        activity.append(np.mean(hidden[:,i]))
+        for j in range(n_classes):
+            class_act[j].append(np.mean(hidden[label_train_index[j],i]))
+    hid_max=np.asarray(hid_max)
+    hid_max_sum=[]
+    for i in range(n_classes):
+        hid_max_sum.append(np.count_nonzero(hid_max==[[i]]))
+    print(hid_max_sum)
+  \end{lstlisting}
+  Then we reorder the activities in increasing order and plot:
+  \begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.75\textwidth]{activity.jpg}
+  \caption{G}\label{}
+  \end{figure}
+  As we could see, the activities are all between 0.2 and 0.7, and the number of low activity nodes is small, thus no extreme situations. This is an acceptable result. To identify the nodes with low activities, we first use the function np.argsort to compute the index after reordering Q in increasing order. Then extract those nodes which are in the first 5\% of the array. The 5\% quantile of Q is 4 nodes: 13, 35, 46, 71.\\
+  If we remove these nodes, the loss on the whole set will improve from 0.82 to 0.69. Relevant Python codes are as follows. We first initialize the weights variable to store new weights and assign it with all-zero matrix temporarily. Then assign it with the trained terminal weights only in those active nodes indices. Thus we have got the weights matrix with specific rows equal to zero. Then compute the loss with this new matrix.
+  \begin{lstlisting}[language=Python]
+    act_sort=np.argsort(activity)
+    inact_sort=(0.05*len(act_sort))
+    act_sort=act_sort[int(inact_sort):]
+    W_act=np.zeros([n_des,h])
+    b_act=np.zeros([h])
+    W_act[:,act_sort]=W[:,act_sort]
+    b_act[act_sort]=b[act_sort]
+    hid_act=sess.run(tf.sigmoid(np.matmul(train,W_act)+b_act))
+    out_act=np.matmul(hid_act,W_out)+b_out
+    loss_act = sess.run(tf.losses.mean_squared_error(labels=train, predictions=out_act))
+    print("Loss after removing inactive nodes: {0:.2f}".format(loss_act))
+  \end{lstlisting}
+  Similar analysis for each class could be achieved with following codes:
+  \begin{lstlisting}[language=Python]
+  for j in range(n_classes):
+    class_act[j].append(np.mean(hidden[label_train_index[j],i]))
+  \end{lstlisting}
+  We compute the activities for each class separately, then we could do the same analysis with the former codes for each class.
+  \section{Auto-encoder Insertion in MLP Classifiers}
+  \subsection{Architecture of MLP}
+  First, we compute the values of AE's hidden layer on the whole set with the terminal weights. Then use these vectors as new inputs. Thus the weigths in the auto-encoder are frozen. According to the PCA of hidden layer, we choose the size of MLP's hidden layer hh=26. After several implementations of the MLP, we modify hh=21 as the best size of hidden layer.
+  \subsection{Confusion Matrix}
+  We first assign a variable that signifies the class that the cases truly belonged to. Then we compare the class predicted by the output vector with this index variable. Then we compute the ratio of each kind of prediction. Finally after running the session, we could store the results to two matrices and output them.\\
+  The training confusion matrix:\\
+$[0.7238636363636364,\ 0.003977272727272727,\ 0.006439393939393939\ 0.265719696969697]$\\
+$[0.000946969696969697,\ 0.8005681818181818,\ 0.08958333333333333,\ 0.08844696969696969]$\\ 
+$[0.0028414472437961733,\ 0.37715476415987875,\ 0.4995264254593673,\ 0.04546315590073877]$\\ 
+$[0.005871212121212121,\ 0.11022727272727273,\ 0.014772727272727272,\ 0.8615530303030303]$\\
+The test confusion matrix:\\
+$[0.7328125,\ 0.005729166666666666,\ 0.004166666666666667,0.25729166666666664]$\\
+$[0.00625,\ 0.6572916666666667,\ 0.17447916666666666,\ 0.16145833333333334]$\\
+$[0.42239583333333336,\ 0.26666666666666666,\ 0.2864583333333333,\ 0.0234375]$\\ 
+$[0.0067708333333333336,\ 0.2140625,\ 0.022916666666666665,\ 0.7473958333333334]$\\
+\end{document}

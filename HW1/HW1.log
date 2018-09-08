@@ -1,0 +1,395 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.9.9)  7 FEB 2018 18:56
+entering extended mode
+**F:/Files/DataMining/HW1/HW1.tex
+(F:/Files/DataMining/HW1/HW1.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+(E:\profession\CTEX\MiKTeX\tex\latex\base\article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(E:\profession\CTEX\MiKTeX\tex\latex\base\size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(E:\profession\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(E:\profession\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(E:\profession\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(E:\profession\CTEX\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(E:\profession\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(E:\profession\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(E:\profession\CTEX\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(E:\profession\CTEX\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(E:\profession\CTEX\MiKTeX\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count88
+\float@exts=\toks15
+\float@box=\box26
+\@float@everytoks=\toks16
+\@floatcapt=\box27
+)
+(E:\profession\CTEX\MiKTeX\tex\latex\listings\listings.sty
+\lst@mode=\count89
+\lst@gtempboxa=\box28
+\lst@token=\toks17
+\lst@length=\count90
+\lst@currlwidth=\dimen105
+\lst@column=\count91
+\lst@pos=\count92
+\lst@lostspace=\dimen106
+\lst@width=\dimen107
+\lst@newlines=\count93
+\lst@lineno=\count94
+\lst@maxwidth=\dimen108
+
+(E:\profession\CTEX\MiKTeX\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count95
+\lst@skipnumbers=\count96
+\lst@framebox=\box29
+)
+(E:\profession\CTEX\MiKTeX\tex\latex\listings\listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(E:\profession\CTEX\MiKTeX\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(E:\profession\CTEX\MiKTeX\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(E:\profession\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(E:\profession\CTEX\MiKTeX\tex\latex\ams\math\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(E:\profession\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks18
+\ex@=\dimen109
+))
+(E:\profession\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen110
+)
+(E:\profession\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count97
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count98
+\leftroot@=\count99
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count100
+\DOTSCASE@=\count101
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen111
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count102
+\c@MaxMatrixCols=\count103
+\dotsspace@=\muskip10
+\c@parentequation=\count104
+\dspbrk@lvl=\count105
+\tag@help=\toks19
+\row@=\count106
+\column@=\count107
+\maxfields@=\count108
+\andhelp@=\toks20
+\eqnshift@=\dimen112
+\alignsep@=\dimen113
+\tagshift@=\dimen114
+\tagwidth@=\dimen115
+\totwidth@=\dimen116
+\lineht@=\dimen117
+\@envbody=\toks21
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(F:\Files\DataMining\HW1\HW1.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+ (E:\profession\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count109
+\scratchdimen=\dimen118
+\scratchbox=\box32
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen119
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks24
+)
+\c@lstlisting=\count115
+ <chard.jpg, id=1, 337.26pt x 190.46156pt>
+File: chard.jpg Graphic file (type jpg)
+ <use chard.jpg>
+Package pdftex.def Info: chard.jpg used on input line 45.
+(pdftex.def)             Requested size: 258.75pt x 146.1269pt.
+ [1
+
+{E:/profession/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}]
+<Des.jpg, id=10, 1028.34187pt x 578.16pt>
+File: Des.jpg Graphic file (type jpg)
+ <use Des.jpg>
+Package pdftex.def Info: Des.jpg used on input line 52.
+(pdftex.def)             Requested size: 413.99895pt x 232.75964pt.
+
+Overfull \hbox (68.99895pt too wide) in paragraph at lines 52--53
+ [][] 
+ []
+
+<DesCla1-6.jpg, id=11, 1028.34187pt x 578.16pt>
+File: DesCla1-6.jpg Graphic file (type jpg)
+ <use DesCla1-6.jpg>
+Package pdftex.def Info: DesCla1-6.jpg used on input line 60.
+(pdftex.def)             Requested size: 465.7521pt x 261.86342pt.
+
+Overfull \hbox (120.7521pt too wide) in paragraph at lines 60--61
+ [][] 
+ []
+
+[2 <F:/Files/DataMining/HW1/chard.jpg> <F:/Files/DataMining/HW1/Des.jpg>]
+<DesCla7-11.jpg, id=15, 1028.34187pt x 578.16pt>
+File: DesCla7-11.jpg Graphic file (type jpg)
+ <use DesCla7-11.jpg>
+Package pdftex.def Info: DesCla7-11.jpg used on input line 66.
+(pdftex.def)             Requested size: 465.7521pt x 261.86342pt.
+
+Overfull \hbox (120.7521pt too wide) in paragraph at lines 66--67
+ [][] 
+ []
+
+[3 <F:/Files/DataMining/HW1/DesCla1-6.jpg>]
+<mc.jpg, id=19, 359.09157pt x 193.47281pt>
+File: mc.jpg Graphic file (type jpg)
+ <use mc.jpg>
+Package pdftex.def Info: mc.jpg used on input line 74.
+(pdftex.def)             Requested size: 258.75pt x 139.4184pt.
+
+<sdc.jpg, id=20, 361.35pt x 191.9672pt>
+File: sdc.jpg Graphic file (type jpg)
+ <use sdc.jpg>
+Package pdftex.def Info: sdc.jpg used on input line 80.
+(pdftex.def)             Requested size: 258.75pt x 137.46054pt.
+ [4 <F:/Files/DataMining/HW1/DesCla7-11.jpg> <F:/Files/DataMining/HW1/mc.jpg>]
+<t1.jpg, id=24, 357.58594pt x 90.3375pt>
+File: t1.jpg Graphic file (type jpg)
+ <use t1.jpg>
+Package pdftex.def Info: t1.jpg used on input line 87.
+(pdftex.def)             Requested size: 258.75pt x 65.37238pt.
+
+<ks1.jpg, id=25, 357.58594pt x 88.83188pt>
+File: ks1.jpg Graphic file (type jpg)
+ <use ks1.jpg>
+Package pdftex.def Info: ks1.jpg used on input line 93.
+(pdftex.def)             Requested size: 258.75pt x 64.28284pt.
+
+(E:\profession\CTEX\MiKTeX\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(E:\profession\CTEX\MiKTeX\tex\latex\listings\lstlang2.sty
+File: lstlang2.sty 2004/09/05 1.3 listings language file
+)
+(E:\profession\CTEX\MiKTeX\tex\latex\listings\lstlang3.sty
+File: lstlang3.sty 2004/09/05 1.3 listings language file
+) [5 <F:/Files/DataMining/HW1/sdc.jpg> <F:/Files/DataMining/HW1/t1.jpg> <F:/Fil
+es/DataMining/HW1/ks1.jpg>]
+Overfull \hbox (169.07813pt too wide) in paragraph at lines 109--110
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (180.41809pt too wide) in paragraph at lines 110--111
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][] 
+ []
+
+<lambda.jpg, id=32, 1028.34187pt x 578.16pt>
+File: lambda.jpg Graphic file (type jpg)
+ <use lambda.jpg>
+Package pdftex.def Info: lambda.jpg used on input line 121.
+(pdftex.def)             Requested size: 345.0pt x 193.9693pt.
+
+Overfull \hbox (1.61186pt too wide) in paragraph at lines 116--123
+\OT1/cmr/m/n/10 The eigen-val-ues of this da-ta set is 480.5307 171.3118 83.059
+12 27.88628 0.5497105
+ []
+
+[6] <ratio.jpg, id=40, 1028.34187pt x 578.16pt>
+File: ratio.jpg Graphic file (type jpg)
+ <use ratio.jpg>
+Package pdftex.def Info: ratio.jpg used on input line 128.
+(pdftex.def)             Requested size: 345.0pt x 193.9693pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 132.
+
+
+(E:\profession\CTEX\MiKTeX\tex\latex\base\omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 132.
+
+<scatter3d.jpg, id=41, 529.98pt x 481.04718pt>
+File: scatter3d.jpg Graphic file (type jpg)
+ <use scatter3d.jpg>
+Package pdftex.def Info: scatter3d.jpg used on input line 136.
+(pdftex.def)             Requested size: 345.0pt x 313.14673pt.
+ [7 <F:/Files/DataMining/HW1/lambda.jpg> <F:/Files/DataMining/HW1/ratio.jpg>]
+<scatter12.jpg, id=46, 1028.34187pt x 578.16pt>
+File: scatter12.jpg Graphic file (type jpg)
+ <use scatter12.jpg>
+Package pdftex.def Info: scatter12.jpg used on input line 144.
+(pdftex.def)             Requested size: 345.0pt x 193.9693pt.
+
+<scatter13.jpg, id=47, 1028.34187pt x 578.16pt>
+File: scatter13.jpg Graphic file (type jpg)
+ <use scatter13.jpg>
+Package pdftex.def Info: scatter13.jpg used on input line 150.
+(pdftex.def)             Requested size: 345.0pt x 193.9693pt.
+ [8 <F:/Files/DataMining/HW1/scatter3d.jpg>]
+<scatter23.jpg, id=51, 1084.80281pt x 578.16pt>
+File: scatter23.jpg Graphic file (type jpg)
+ <use scatter23.jpg>
+Package pdftex.def Info: scatter23.jpg used on input line 156.
+(pdftex.def)             Requested size: 345.0pt x 183.86812pt.
+ [9 <F:/Files/DataMining/HW1/scatter12.jpg> <F:/Files/DataMining/HW1/scatter13.
+jpg>]
+[10 <F:/Files/DataMining/HW1/scatter23.jpg>] (F:\Files\DataMining\HW1\HW1.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4336 strings out of 495354
+ 55171 string characters out of 3183244
+ 153410 words of memory out of 3000000
+ 7477 multiletter control sequences out of 15000+200000
+ 9042 words of font info for 34 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 27i,7n,43p,1135b,2206s stack positions out of 5000i,500n,10000p,200000b,50000s
+<E:/profession/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/prof
+ession/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><E:/profession/CTE
+X/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/profession/CTEX/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmmi7.pfb><E:/profession/CTEX/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><E:/profession/CTEX/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><E:/profession/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+17.pfb><E:/profession/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><E:/p
+rofession/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><E:/profession/CT
+EX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/profession/CTEX/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on HW1.pdf (10 pages, 2209214 bytes).
+PDF statistics:
+ 93 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+

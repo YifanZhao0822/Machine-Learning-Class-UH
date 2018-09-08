@@ -1,0 +1,71 @@
+\documentclass{article}
+\usepackage{graphicx,float}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{amsmath}
+
+\lstset{numbers=left,
+numberstyle=\tiny,
+keywordstyle=\color{blue}, commentstyle=\color[cmyk]{1,0,1,0},
+frame=null,
+%rulesepcolor=\color{red!20!green!20!blue!20},
+basicstyle=\ttfamily\small,
+xleftmargin=2em,
+xrightmargin=2em,
+aboveskip=1em,
+showspaces=false
+}
+
+\author{Yifan Zhao}
+\title{Automatical Learning and Data Mining\\HW1 Report}
+\begin{document}
+ \maketitle
+ \section{Problem 1}
+ I choose a data set consists of measurements of fetal heart rate (FHR) and uterine contraction (UC) features on cardiotocograms classified by expert obstetricians as my classification task. One case is a vector of 11 respective diagnostic features of fetal cardiotocograms. Thus there are 11 descriptors. The meaning of descriptors are as follows:\\
+LB - FHR baseline (beats per minute)\\
+AC - number of accelerations per second\\
+FM - number of fetal movements per second\\
+UC - number of uterine contractions per second\\
+DL - number of light decelerations per second\\
+DS - number of severe decelerations per second\\
+DP - number of prolongued decelerations per second\\
+ASTV - percentage of time with abnormal short term variability\\
+MSTV - mean value of short term variability\\
+ALTV - percentage of time with abnormal long term variability\\
+MLTV - mean value of long term variability\\
+There are 5 classes, each class represents a pattern of FHR(fetal heart rate). Class1 has 963 cases; class2 has 134 cases; class3 has 404 cases; class4 has 359 cases; class5 has 266 cases.\\
+The correct classification of each case was originally obtained by 3 expert obstetricians and it is in the 12th column of the data set(valued as integer 1 to 10).\\
+There is a publication analyzing the classification task associated to this data set:\\
+Ayres de Campos et al. (2000) SisPorto 2.0 A Program for Automated Analysis of Cardiotocograms. J Matern Fetal Med 5:311-318
+\section{Problem 2}
+Although some descriptors seems to discrete(such as AC, the number of accelerations per second. But it is continuous since it is a ratio of the number of accelerations,an integer, and time, a real number), So all 11 descriptors are numeric and continuous.\\ Their respective max value, min value, range, mean and standard deviation are as follows:
+  \begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.75\textwidth]{chard.jpg}
+  \label{}
+  \end{figure}
+And here is their histogram:
+  \begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=1.2\textwidth]{Des.jpg}
+  \caption{Histogram of descriptors}\label{}
+  \end{figure}
+\section{Problem 3}
+Here are the histograms for each descriptor with 5 classes overlapped:
+  \begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=1.35\textwidth]{DesCla1-6.jpg}
+  \caption{Histogram of classes of descriptors 1-6}\label{}
+  \end{figure}
+  \begin{figure}[H]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=1.35\textwidth]{DesCla7-11.jpg}
+  \caption{Histogram of classes of descriptors 7-11}\label{}
+  \end{figure}
+According to the histograms, descriptor 2,3,5,8,9 and 10 are relatively more helpful to discriminate between some pairs of classes than the others.\\
+
+\end{document}

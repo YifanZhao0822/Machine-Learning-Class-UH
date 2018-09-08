@@ -1,0 +1,591 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2017.9.9)  21 APR 2018 22:21
+entering extended mode
+**F:/Files/DataMining/midterm/summaryRBM.tex
+(F:/Files/DataMining/midterm/summaryRBM.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for loaded.
+(E:\profession\CTEX\MiKTeX\tex\latex\base\article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(E:\profession\CTEX\MiKTeX\tex\latex\base\size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(E:\profession\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(E:\profession\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(E:\profession\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(E:\profession\CTEX\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(E:\profession\CTEX\MiKTeX\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(E:\profession\CTEX\MiKTeX\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(E:\profession\CTEX\MiKTeX\tex\generic\oberdiek\infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(E:\profession\CTEX\MiKTeX\tex\generic\oberdiek\ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(E:\profession\CTEX\MiKTeX\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count88
+\float@exts=\toks15
+\float@box=\box26
+\@float@everytoks=\toks16
+\@floatcapt=\box27
+)
+(E:\profession\CTEX\MiKTeX\tex\latex\listings\listings.sty
+\lst@mode=\count89
+\lst@gtempboxa=\box28
+\lst@token=\toks17
+\lst@length=\count90
+\lst@currlwidth=\dimen105
+\lst@column=\count91
+\lst@pos=\count92
+\lst@lostspace=\dimen106
+\lst@width=\dimen107
+\lst@newlines=\count93
+\lst@lineno=\count94
+\lst@maxwidth=\dimen108
+
+(E:\profession\CTEX\MiKTeX\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count95
+\lst@skipnumbers=\count96
+\lst@framebox=\box29
+)
+(E:\profession\CTEX\MiKTeX\tex\latex\listings\listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(E:\profession\CTEX\MiKTeX\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(E:\profession\CTEX\MiKTeX\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(E:\profession\CTEX\MiKTeX\tex\latex\ams\math\amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(E:\profession\CTEX\MiKTeX\tex\latex\ams\math\amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(E:\profession\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks18
+\ex@=\dimen109
+))
+(E:\profession\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen110
+)
+(E:\profession\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count97
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count98
+\leftroot@=\count99
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count100
+\DOTSCASE@=\count101
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen111
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count102
+\c@MaxMatrixCols=\count103
+\dotsspace@=\muskip10
+\c@parentequation=\count104
+\dspbrk@lvl=\count105
+\tag@help=\toks19
+\row@=\count106
+\column@=\count107
+\maxfields@=\count108
+\andhelp@=\toks20
+\eqnshift@=\dimen112
+\alignsep@=\dimen113
+\tagshift@=\dimen114
+\tagwidth@=\dimen115
+\totwidth@=\dimen116
+\lineht@=\dimen117
+\@envbody=\toks21
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(E:\profession\CTEX\MiKTeX\tex\latex\multirow\multirow.sty
+\bigstrutjot=\dimen118
+)
+(F:\Files\DataMining\midterm\summaryRBM.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+ (E:\profession\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count109
+\scratchdimen=\dimen119
+\scratchbox=\box32
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen120
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks24
+)
+\c@lstlisting=\count115
+ <Boltzmannexample.jpg, id=1, 220.825pt x 209.78375pt>
+File: Boltzmannexample.jpg Graphic file (type jpg)
+
+<use Boltzmannexample.jpg>
+Package pdftex.def Info: Boltzmannexample.jpg used on input line 33.
+(pdftex.def)             Requested size: 172.5pt x 163.88353pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 38.
+ (E:\profession\CTEX\MiKTeX\tex\latex\base\omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
+[1
+
+{E:/profession/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}} <
+F:/Files/DataMining/midterm/Boltzmannexample.jpg>] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--109
+
+ []
+
+[3] [4] <Restricted_Boltzmann_machine.jpg, id=28, 220.825pt x 234.8775pt>
+File: Restricted_Boltzmann_machine.jpg Graphic file (type jpg)
+
+<use Restricted_Boltzmann_machine.jpg>
+Package pdftex.def Info: Restricted_Boltzmann_machine.jpg used on input line 13
+1.
+(pdftex.def)             Requested size: 172.5pt x 183.48683pt.
+ [5
+
+ <F:/Files/DataMining/midterm/Restricted_Boltzmann_machine.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 150--152
+
+ []
+
+[6] [7] [8] [9
+
+] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 230--232
+
+ []
+
+[11] [12] (E:\profession\CTEX\MiKTeX\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+Overfull \hbox (1.19505pt too wide) in paragraph at lines 260--261
+ [] \OT1/cmr/m/n/10 We use mat-lab to im-ple-men-t a re-strict-ed Boltz-man-n m
+a-chine for auto-encoder.
+ []
+
+
+Overfull \hbox (118.04828pt too wide) in paragraph at lines 262--263
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (146.3982pt too wide) in paragraph at lines 272--273
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (135.05823pt too wide) in paragraph at lines 273--274
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.65857pt too wide) in paragraph at lines 278--279
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+[13
+
+]
+Overfull \hbox (55.67847pt too wide) in paragraph at lines 292--293
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+<Gradient.jpg, id=62, 833.36343pt x 438.8897pt>
+File: Gradient.jpg Graphic file (type jpg)
+ <use Gradient.jpg>
+Package pdftex.def Info: Gradient.jpg used on input line 298.
+(pdftex.def)             Requested size: 413.99895pt x 218.03125pt.
+
+Overfull \hbox (68.99895pt too wide) in paragraph at lines 298--299
+ [][] 
+ []
+
+[14] <MeanofWeights.jpg, id=66, 843.15pt x 435.12563pt>
+File: MeanofWeights.jpg Graphic file (type jpg)
+
+<use MeanofWeights.jpg>
+Package pdftex.def Info: MeanofWeights.jpg used on input line 306.
+(pdftex.def)             Requested size: 413.99895pt x 213.65826pt.
+
+Overfull \hbox (68.99895pt too wide) in paragraph at lines 306--307
+ [][] 
+ []
+
+<StdevofWeights.jpg, id=67, 849.1725pt x 439.6425pt>
+File: StdevofWeights.jpg Graphic file (type jpg)
+ <use StdevofWeights.jpg>
+Package pdftex.def Info: StdevofWeights.jpg used on input line 313.
+(pdftex.def)             Requested size: 413.99895pt x 214.33994pt.
+
+Overfull \hbox (68.99895pt too wide) in paragraph at lines 313--314
+ [][] 
+ []
+
+[15 <F:/Files/DataMining/midterm/Gradient.jpg> <F:/Files/DataMining/midterm/Mea
+nofWeights.jpg>] <hist1.jpg, id=71, 840.89156pt x 427.5975pt>
+File: hist1.jpg Graphic file (type jpg)
+ <use hist1.jpg>
+Package pdftex.def Info: hist1.jpg used on input line 320.
+(pdftex.def)             Requested size: 413.99895pt x 210.52287pt.
+
+Overfull \hbox (68.99895pt too wide) in paragraph at lines 320--321
+ [][] 
+ []
+
+<hist2.jpg, id=72, 831.85782pt x 425.33907pt>
+File: hist2.jpg Graphic file (type jpg)
+ <use hist2.jpg>
+Package pdftex.def Info: hist2.jpg used on input line 326.
+(pdftex.def)             Requested size: 413.99895pt x 211.6825pt.
+
+Overfull \hbox (68.99895pt too wide) in paragraph at lines 326--327
+ [][] 
+ []
+
+[16 <F:/Files/DataMining/midterm/StdevofWeights.jpg>]
+<Finhist.jpg, id=76, 846.16125pt x 444.91219pt>
+File: Finhist.jpg Graphic file (type jpg)
+ <use Finhist.jpg>
+Package pdftex.def Info: Finhist.jpg used on input line 335.
+(pdftex.def)             Requested size: 413.99895pt x 217.67622pt.
+
+Overfull \hbox (68.99895pt too wide) in paragraph at lines 335--336
+ [][] 
+ []
+
+[17 <F:/Files/DataMining/midterm/hist1.jpg> <F:/Files/DataMining/midterm/hist2.
+jpg>]
+Overfull \hbox (4.64862pt too wide) in paragraph at lines 346--347
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.98859pt too wide) in paragraph at lines 347--348
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (32.99854pt too wide) in paragraph at lines 349--350
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (50.00848pt too wide) in paragraph at lines 350--351
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (27.32855pt too wide) in paragraph at lines 352--353
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[18 <F:/Files/DataMining/midterm/Finhist.jpg>]
+Overfull \hbox (27.32855pt too wide) in paragraph at lines 365--366
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (67.01843pt too wide) in paragraph at lines 367--368
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (123.71826pt too wide) in paragraph at lines 368--369
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (89.69836pt too wide) in paragraph at lines 369--370
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (157.73816pt too wide) in paragraph at lines 372--373
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][] 
+ []
+
+
+Overfull \hbox (15.98859pt too wide) in paragraph at lines 373--374
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (67.01843pt too wide) in paragraph at lines 377--378
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (61.34845pt too wide) in paragraph at lines 378--379
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][] 
+ []
+
+[19]
+Overfull \hbox (123.71826pt too wide) in paragraph at lines 421--422
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (157.73816pt too wide) in paragraph at lines 430--431
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (118.04828pt too wide) in paragraph at lines 432--433
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (157.73816pt too wide) in paragraph at lines 438--439
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][] 
+ []
+
+
+Overfull \hbox (157.73816pt too wide) in paragraph at lines 441--442
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[20]
+Overfull \hbox (146.3982pt too wide) in paragraph at lines 442--443
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (135.05823pt too wide) in paragraph at lines 443--444
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (157.73816pt too wide) in paragraph at lines 448--449
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
+ []
+
+
+Overfull \hbox (163.40814pt too wide) in paragraph at lines 458--459
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
+ []
+
+
+Overfull \hbox (21.65857pt too wide) in paragraph at lines 459--460
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (163.40814pt too wide) in paragraph at lines 460--461
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (163.40814pt too wide) in paragraph at lines 461--463
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (169.07813pt too wide) in paragraph at lines 467--468
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (21.65857pt too wide) in paragraph at lines 470--471
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (10.3186pt too wide) in paragraph at lines 477--478
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (10.3186pt too wide) in paragraph at lines 480--481
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[21]
+Overfull \hbox (4.64862pt too wide) in paragraph at lines 503--504
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.98859pt too wide) in paragraph at lines 504--505
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (32.99854pt too wide) in paragraph at lines 506--507
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (50.00848pt too wide) in paragraph at lines 507--508
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (27.32855pt too wide) in paragraph at lines 509--510
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (10.3186pt too wide) in paragraph at lines 520--522
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (84.02838pt too wide) in paragraph at lines 522--523
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (112.3783pt too wide) in paragraph at lines 531--532
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[22] (F:\Files\DataMining\midterm\summaryRBM.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4168 strings out of 495354
+ 53835 string characters out of 3183244
+ 179289 words of memory out of 3000000
+ 7312 multiletter control sequences out of 15000+200000
+ 10276 words of font info for 38 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 27i,11n,42p,881b,1526s stack positions out of 5000i,500n,10000p,200000b,50000s
+<E:/profession/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/prof
+ession/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/profession/CTE
+X/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><E:/profession/CTEX/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb><E:/profession/CTEX/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmmi10.pfb><E:/profession/CTEX/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmmi5.pfb><E:/profession/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+mi7.pfb><E:/profession/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:
+/profession/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><E:/profession
+/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><E:/profession/CTEX/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmr5.pfb><E:/profession/CTEX/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr7.pfb><E:/profession/CTEX/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><E:/profession/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/c
+msy7.pfb><E:/profession/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on summaryRBM.pdf (22 pages, 552486 bytes).
+PDF statistics:
+ 143 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+
